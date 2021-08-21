@@ -41,5 +41,22 @@ for(let i=0;i<heading4.length;i++){
     console.log(heading4);
 }
 
+//dom-navigation
+
+let parentel=document.getElementById("parent");
+console.log(parentel);
+console.log(parentel.children);
+console.log(parentel.childNodes);
+console.log(parentel.firstChild);
+console.log(parentel.lastChild);
+console.log(parentel.firstElementChild);
+console.log(parentel.lastElementChild);
+console.log(parentel.parentElement);
+
+let midel=document.getElementById("access");
+console.log(midel.nextSibling);
+console.log(midel.previousSibling);
+console.log(midel.nextElementSibling);
+console.log(midel.previousElementSibling);
 
 
