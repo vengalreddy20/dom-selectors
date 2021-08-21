@@ -59,4 +59,35 @@ console.log(midel.previousSibling);
 console.log(midel.nextElementSibling);
 console.log(midel.previousElementSibling);
 
+//applying css individually
+let firstparagraph=document.getElementById("access");
+console.log(firstparagraph);
+firstparagraph.style.color='blue';
+firstparagraph.style.padding= "50px"
+firstparagraph.style.backgroundColor='red';
+
+//cssText
+firstparagraph.style.cssText="color:brown;background-color:pink";
+
+//using classnames
+function onaddClick(){
+    let lastpara=document.getElementById("hello");
+    lastpara.classList.add("firstText");
+}
+function onremoveClick(){
+    let lastpara1=document.getElementById("hello");
+    lastpara1.classList.remove("firstText");
+}
+
+//innertext
+let lastpara2=document.getElementById("hello")
+console.log(lastpara2.innerText);
+
+//textContent
+let lastpara3=document.getElementById("hello")
+console.log(lastpara3.textContent);
+
+//innerHTML
+let lastpara4=document.getElementById("hello")
+console.log(lastpara4.innerHTML);
 

@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.firstText{
+    color: aqua;
+    background-color: rebeccapurple;
+    padding: 5px;
+}
